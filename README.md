@@ -1,16 +1,15 @@
-# 🤖 AI Browser Agent
+# AI Browser Agent
 
 An AI-powered browser automation tool that lets you control your web browser using natural language. Give it a task in plain English and watch it navigate, search, click, and extract information — all on its own.
 
 Built with **Browser-Use**, **Pydantic AI**, and the **Chrome DevTools Protocol (CDP)**.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue?logo=windows)
 
 ---
 
-## ✨ Features
+## Features
 
 - **Natural Language Control** — Describe what you want in plain English and the AI agent handles the rest
 - **Web UI Dashboard** — Clean browser-based interface with real-time agent logs, an AI chatbot, and in-app API key management
@@ -21,7 +20,7 @@ Built with **Browser-Use**, **Pydantic AI**, and the **Chrome DevTools Protocol 
 
 ---
 
-## 🖥️ Screenshots
+## Screenshots
 
 ### Web UI
 The Web UI provides a dual-panel interface:
@@ -41,7 +40,7 @@ Microsoft Edge now integrates AI-powered features including...
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Python 3.11+**
@@ -106,7 +105,7 @@ Runs a predefined task directly in Microsoft Edge from the terminal.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-browser-agent/
@@ -132,7 +131,7 @@ ai-browser-agent/
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 All configuration is done through the `.env` file. Key options:
 
@@ -154,7 +153,7 @@ BROWSER_USE_LOGGING_LEVEL=info
 
 ---
 
-## 🧪 Usage Examples
+## Usage Examples
 
 ### Python Script
 ```python
@@ -178,7 +177,7 @@ print(result.final_result())
 
 ---
 
-## 🐳 Docker
+## Docker
 
 ```bash
 docker build -t ai-browser-agent .
@@ -187,7 +186,7 @@ docker run --env-file .env ai-browser-agent
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -199,13 +198,13 @@ docker run --env-file .env ai-browser-agent
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Browser-Use](https://github.com/browser-use/browser-use) — The core browser agent engine
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) — Agent orchestration framework
